@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,100&family=Montserrat:wght@200&family=Source+Sans+3:ital,wght@0,400;0,700;1,600&family=Tektur:wght@400;500&display=swap');
+body {
+    margin: 0;
+    font-family: 'Tektur', cursive;
+}
+/* NavBar */
+nav {
+background: linear-gradient(90.21deg, #7e004c -5.91%, #4A2FBD 111.58%);
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+font-family: 'Tektur', cursive;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar li {
+    flex: 1;
+    text-align: center;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: background-color 0.3s;
+}
+
+.navbar li a:hover {
+    background-color: #c70acd;
+   
+}
+ื.navbar{
+    display: block;
+}
+
+
+/* //////////// */
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    height: 100%;
+    padding: 150px 0 100px 0;
+    background-image: url('./img/banner-bg.png');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo {
+    display:flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 3.5rem 0 0 12rem;
+    height: 450px;
+    animation:updow 3s linear infinite;
+    
+}
+@keyframes updow{
+    0%{
+        transform: translateY(-20px)
+    }
+    50%{
+     transform: translateY(20px);    
+    }
+    100% {
+    transform: translateY(-20px);
+    }
+}
+
+/* AboutPage */
+.about-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0 100px 0;
+    background: linear-gradient(90.21deg, #7e004c -5.91%, #4A2FBD 111.58%);
+    height: 100%;
+}
+h1{
+    color: #fff;
+    font-size: 40px;
+    margin: 9rem 0 0 1.5rem
+}
+h2{
+    color: #fff;
+    font-size: 30px;
+}
+h7{
+    color: #fff;
+}
+p{
+    color: #fff;
+    font-size: 24px;
+}
+
+.been{
+    height: 5rem;
+}
+
+/* เริ่มต้นด้วยการรีเซ็ต margin และ padding ของ ul และ li */
+ul.skill-bars {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.skill-bars li {
+    margin-bottom: 15px;
+}
+
+/* สีพื้นหลังและขนาดแท็บเปอร์เซ็น */
+.skill-bars h7 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* สีพื้นหลังและสไตล์ของแท็บเปอร์เซ็น */
+.skill-bars .progress {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 2px;
+    height: 1.7rem;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.skill-bars .progress span {
+    display: inline-block;
+    background-color: #747974;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+ 
+}
+
+/* ความกว้างของแท็บเปอร์เซ็น */
+.percent90 span {
+    width: 90%;
+}
+
+.percent85 span {
+    width: 85%;
+}
+
+.percent70 span {
+    width: 70%;
+}
+
+.percent95 span {
+    width: 95%;
+}
+
+.percent75 span {
+    width: 75%;
+}
+
+/* Project */
+.project-page{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+    padding: 100px 0 100px 0;
+    background: linear-gradient(90.21deg, #383135 -5.91%, #7e004c 111.58%);
+    height: 100%;
+}
+.card{
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: #f0f0f0;
+    height: 100%;
+     width: 95%;
+}
+
+/* Contact */
+.contact{
+    background: #333;
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 0 100px 0;
+}
+.contact-p{
+    font-size: 18px;
+}
+.social-icon{
+    display: flex;
+ justify-content: space-between;
+ 
+ 
+}
+
+
+
