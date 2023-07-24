@@ -46,7 +46,7 @@ font-family: 'Tektur', cursive;
     margin-top: 0;
     height: 100%;
     padding: 150px 0 100px 0;
-    background-image: url('./img/banner-bg.png');
+    background-image: url('banner-bg.png');
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
